@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+
+    .navigation_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #f2f4f7;
+
+        .mobile_navbar {
+            display: flex;
+            width: 85%;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+    }
+}
+
+
+@media (min-width: 600px) {
+
+    .navigation_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #f2f4f7;
+
+        .navigation_bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 85%;
+            padding-bottom: 15px;
+            padding-top: 15px;
+
+            .zysk_nav {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+            }
+        }
+    }
+}

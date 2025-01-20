@@ -1,0 +1,104 @@
+@media (min-width: 600px) {
+
+    .cta_background {
+        background-color: #F9FAFB;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        width: 100%;
+
+        .cta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p:first-of-type {
+                margin: 0;
+                font-size: 36px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p:nth-of-type(2) {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            .cta_action {
+                display: flex;
+                gap: 8px;
+                margin-top: 40px;
+
+                button:first-of-type {
+                    border-radius: 8px;
+                    background-color: white;
+                    border: 1px solid #D0D5DD;
+                    padding: 12px 20px 12px 20px;
+                }
+
+                button:nth-of-type(2) {
+                    color: white;
+                    background-color: #E63F3A;
+                    border: 0px;
+                    padding: 12px 20px 12px 20px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 600px) {
+    .cta_background {
+        background-color: #F9FAFB;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        width: 100%;
+
+        .cta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p:first-of-type {
+                margin: 0;
+                font-size: 36px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p:nth-of-type(2) {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            .cta_action {
+                display: flex;
+                flex-direction: column;
+                width: 85%;
+                gap: 10px;
+                margin-top: 30px;
+                button:first-of-type {
+                    border-radius: 8px;
+                    background-color: white;
+                    border: 1px solid #D0D5DD;
+                    padding: 12px 20px 12px 20px;
+                }
+
+                button:nth-of-type(2) {
+                    color: white;
+                    background-color: #E63F3A;
+                    border: 0px;
+                    padding: 12px 20px 12px 20px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}
